@@ -1,0 +1,9 @@
+.main-screen {
+  height: 92vh;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  background-color: #1e1e1e;
+}

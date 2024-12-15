@@ -1,0 +1,32 @@
+.list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #f45d48 #232323;
+}
+
+.list-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.buttons-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+
+.change-order-button {
+  color: #232323;
+  transition: transform 0.5s;
+}
+
+.change-order-button:hover {
+  color: #f8f5f2;
+  transform: scale(1.5);
+}
